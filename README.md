@@ -27,6 +27,7 @@ Making an employee analysis, Module 7.
 * The retiring_titles table tells us that 29,414 Senior Engineers, 28,254 Senior Staff, 14,222 Engineers, 12,243 Staff, 4,502 Technique Leaders, 1,761 Assistant Engineers, and 2 Managers were all born between January 1st, 1952, and December 31st, 1955. The total number of employees born between those dates is 90,398. When I break this down into the roles that are needed to be filled by title and department, we can get a better understanding of which roles are needed to be filled. 
 <img width="370" alt="Screen Shot 2022-02-01 at 6 33 49 PM" src="https://user-images.githubusercontent.com/96043107/152079577-e230dd56-bc5a-4573-8e81-f1ae195acab7.png">
 * The table above does not include the departments "Human Resources", "Finance", "Development", or "Customer Service" and is just an excerpt of the table I created. 
+* 
 
 --Are there enough qualified, retirment-ready employees in the departments to mentor the next generatiuon of PH employees?
 In order to determine of there are enough qualified staff to train others at PH, I used an additional filter on our "unique_titles_department" table that only gives employees who are in high-level positions; those being: 'Senior Engineer', 'Senior Staff', 'Technique Leader', and 'Manager'. From the table below, we can examine how many employees are qualified for staff training in each department. 
